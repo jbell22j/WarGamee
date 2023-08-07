@@ -13,7 +13,6 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import javax.smartcardio.Card;
 import javax.swing.*;
 
 import java.awt.*;
@@ -27,7 +26,7 @@ public class Main {
 	int x=0;
 	int n=0;
 	
-	JFrame frame = new JFrame();
+	JFrame frame = new JFrame("War Card Game");
 	JPanel one = new JPanel(new GridLayout(2,1));
 	JPanel two = new JPanel(new GridLayout(2,1));
 	JTextField pl1 = new JTextField(10);
@@ -214,7 +213,7 @@ public class Main {
 		Frame frame2 = new Frame();
 		frame2.setLayout(new BorderLayout());
 		frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-		frame.setSize(400, 400);
+		frame.setSize(1000, 1000);
 		
 		one.add(pl1);
 		one.add(pla);
@@ -223,7 +222,7 @@ public class Main {
 		
 		frame.add(one, BorderLayout.WEST);
 		frame.add(two, BorderLayout.EAST);
-		frame.add(turnCount, BorderLayout.CENTER);
+		frame.add(turnCount, BorderLayout.NORTH);
 		
 		frame.setVisible(true);
 	}
