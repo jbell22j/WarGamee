@@ -10,6 +10,8 @@ In this project, we were assigned the task of recreating the classic playing car
 There are three classes used within our project to create our functioning war game. These classes include:
 * `Cards.java` which includes functions that set up our deck of cards and programming what numerical values to assign to what playing card.
 <img width="210" alt="image" src="https://github.com/jbell22j/WarGamee/assets/141024595/88451c34-2865-4296-afe4-cecf52dbc9d9">
+
 * `Main.java` is the class used to create our graphical user interface (GUI) and program the rules of the game. The GUI is essentially the window which pops up when you play the game that allows the game to be playing in an application outside of the Java program.
+
 * `War.java` is the class used to run the game.
 
