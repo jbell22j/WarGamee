@@ -11,7 +11,7 @@ There are three classes used within our project to create our functioning war ga
 * `Cards.java` which includes functions that set up our deck of cards and programming what numerical values to assign to what playing card.
 <img width="210" alt="image" src="https://github.com/jbell22j/WarGamee/assets/141024595/88451c34-2865-4296-afe4-cecf52dbc9d9">
 
-* `Main.java` is the class used to create our graphical user interface (GUI) and program the rules of the game. The GUI is essentially the window which pops up when you play the game that allows the game to be playing in an application outside of the Java program.
+* `Main.java` is the class used to create our graphical user interface (GUI) using Java swing and program the rules of the game. The GUI is essentially the window which pops up when you play the game that allows the game to be playing in an application outside of the Java program.
 
 <img width="461" alt="image" src="https://github.com/jbell22j/WarGamee/assets/141024595/1bccc526-27f1-4101-b633-73e711468a1f">
 
